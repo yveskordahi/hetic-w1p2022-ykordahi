@@ -1,0 +1,300 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,700i,900,900i&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Bitter:400,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Merriweather:300,300i,400,400i,700,700i,900,900i&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Roboto+Condensed:300,300i,400,400i,700,700i&display=swap");
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+  background-color: #fcfcfd;
+}
+
+h1,
+h2,
+h3,
+nav,
+ul,
+ol,
+li,
+a {
+  margin: 0;
+  padding: 0;
+}
+
+a,
+li,
+ul,
+ol {
+  list-style: none;
+  text-decoration: none;
+}
+
+/*  First section of the article */
+
+.section-first-article {
+  margin-left: 10rem;
+  margin-right: 10rem;
+  padding-top: 2.6rem;
+}
+
+.header-first-article {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.a-disparition {
+  font-family: "Roboto Condensed", sans-serif;
+  text-transform: uppercase;
+  color: #2a303b;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+}
+
+.h1-first-title {
+  font-family: "Merriweather", serif;
+  color: #2a303b;
+  margin-top: 12px;
+  font-size: 2.2rem;
+  font-weight: 500;
+}
+
+.div-grid-title-paulAllen {
+  grid-column: 1 / span 2;
+  max-width: 85%;
+}
+
+.p-desc-paulAllen {
+  margin-top: 10px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  color: #2a303b;
+  font-size: 18px;
+  letter-spacing: 0.5px;
+}
+
+.p-Publishdate {
+  margin: 0;
+  grid-column: 1 /3;
+}
+
+.span-afp {
+  margin-top: 0;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: #9e9e9e;
+}
+
+.span-afp::after {
+  color: #d5d8dc;
+  content: "\2022";
+  padding-left: 0.8rem;
+  padding-right: 0.4rem;
+  display: inline-block;
+  line-height: 1;
+}
+
+.span-publishdate {
+  margin-top: 0;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: #9e9e9e;
+}
+
+.time-desc-icon {
+  display: flex;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: #8f8f8f;
+}
+
+.clock-svg {
+  width: 15px;
+  margin-top: 5px;
+}
+
+.time-desc-icon {
+  margin-bottom: 2px;
+}
+
+.time-of-clock {
+  padding-top: 4.5px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: #8f8f8f;
+  margin-left: 7px;
+}
+
+.div-article-separation {
+  margin-top: 10px;
+  height: 0.08rem;
+  background-color: #d5d8dc;
+  width: 2.7rem;
+}
+
+figure {
+  margin: 0;
+  padding: 0;
+}
+
+/*  Second section of the article */
+.section-main-article {
+  display: grid;
+  grid-template-columns: 1fr 35rem;
+}
+
+.paul-allen-picture {
+  width: 36rem;
+  margin-top: 25px;
+}
+
+.desc-picture-paulAllen {
+  margin-top: 5px;
+  line-height: 1.2em;
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: 500;
+  color: #adadad;
+}
+
+.desc-paulAllen {
+  grid-column: 1 / 3;
+  width: 52%;
+  font-size: 16px;
+  line-height: 1.5;
+  font-family: "Merriweather", serif;
+  font-weight: 500;
+  color: #383f4e;
+  margin-bottom: 1px;
+}
+
+/* Aside */
+
+.link-aside {
+  text-decoration: none;
+  list-style: none;
+  font-size: 18px;
+  margin: 0;
+  padding: 0;
+  color: #026b9c;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+}
+
+.aside-article {
+  margin: 0;
+  padding: 0;
+  width: 56%;
+}
+
+.span-aside {
+  font-size: 16px;
+  font-family: "Merriweather", serif;
+  font-weight: 700;
+  margin-right: 0;
+}
+
+.span-aside::after {
+  content: "|";
+  display: inline-block;
+  color: #c2c4c9;
+  margin-left: 0.4rem;
+  margin-right: 0.4rem;
+}
+
+/* Section Fortune of Paull Allen */
+
+.section-fortune-paulAllen {
+  display: grid;
+  grid-template-columns: 1fr 35rem;
+}
+
+.h2-secton-main-next {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 1.4rem;
+  width: 127%;
+}
+
+.p-fortune-paulAllen {
+  grid-column: 1 / 3;
+  width: 52%;
+  font-size: 16px;
+  line-height: 1.5;
+  font-family: "Merriweather", serif;
+  font-weight: 500;
+  color: #383f4e;
+}
+
+/* End section */
+
+.desc-picture2-paulAllen {
+  margin-top: 5px;
+  line-height: 1.2em;
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: 500;
+  color: #adadad;
+  width: 60%;
+}
+
+/* Section passion */
+
+.section-desc-paulAllen {
+  display: grid;
+  grid-template-columns: 1fr 35rem;
+}
+
+.p-desc-passion {
+  grid-column: 1 / 3;
+  width: 61%;
+  font-size: 16px;
+  line-height: 1.5;
+  font-family: "Merriweather", serif;
+  font-weight: 500;
+  color: #383f4e;
+  margin-bottom: 1px;
+}
+
+.div-tweet-paulAllen {
+  margin-top: 30px;
+  margin-left: 30px;
+}
+
+/* Section of the tweet */
+
+.section-after-tweet {
+  display: grid;
+  grid-template-columns: 1fr 35rem;
+}
+
+.p-desc-after-tweet {
+  grid-column: 1 / 3;
+  width: 61%;
+  font-size: 16px;
+  line-height: 1.5;
+  font-family: "Merriweather", serif;
+  font-weight: 500;
+  color: #383f4e;
+  margin-bottom: 1px;
+}
+
+.section-after-tweet-2 {
+  display: grid;
+  grid-template-columns: 1fr 35rem;
+  padding-bottom: 35px;
+}
+
+.p-desc-after-tweet-2 {
+  grid-column: 1 / 3;
+  margin-top: 5px;
+  width: 61%;
+  font-size: 16px;
+  line-height: 1.5;
+  font-family: "Merriweather", serif;
+  font-weight: 500;
+  color: #383f4e;
+  margin-bottom: 1px;
+}
